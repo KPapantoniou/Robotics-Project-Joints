@@ -23,7 +23,7 @@ def generate_launch_description():
         PathJoinSubstitution([FindExecutable(name="xacro")]),
         " ",
         PathJoinSubstitution([
-            FindPackageShare("ur20_display"),  # also typo: "u20_display"
+            FindPackageShare("ur20_display"), 
             "urdf",
             "ur20_with_gripper.urdf.xacro"
         ])
@@ -37,10 +37,6 @@ def generate_launch_description():
         }]
     )
     
-    # joint_state_publisher = Node(
-    #     package='joint_state_publisher',
-    #     executable='joint_state_publisher',
-    # )
     
     rviz_node = Node(
         package="rviz2",
