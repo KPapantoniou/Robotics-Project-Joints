@@ -1,5 +1,5 @@
-# Robotics Software Engineer Technical Assessment
-This project is a technical assessment for a position in Progressive Robotics. It is divided in three main steps.
+# Robotics Joint Project
+
 
 ## Step 1: Development Environment with Docker
 The first step is to set up the development environment required to run the ROS2 software pipeline. Since ROS2 Humble is mainly for Ubuntu 22.04, and the project needs to remain portable across different operating systems, Docker is used to provide a consistent and reproducible development environment.
